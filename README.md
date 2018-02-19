@@ -13,7 +13,7 @@ Instructions are at https://conda.io/miniconda.html
 With a conda installation, create an environment with some prerequisites:
 
 ```
-conda create -n openstates1 python=3.6 bokeh pandas fastparquet python-snappy sqlalchemy mysql-connector-python
+conda create -n openstate1 python=3.6 bokeh pandas fastparquet python-snappy sqlalchemy mysql-connector-python
 ```
 
 Not all of our prerequisites are available from the default software channels.
@@ -21,14 +21,14 @@ We get a few more things from the conda-forge and ioam organizations on
 anaconda.org:
 
 ```
-conda install -n openstates1 -c ioam -c conda-forge notebook holoviews geoviews datashader
+conda install -n openstate1 -c ioam -c conda-forge notebook holoviews geoviews datashader
 ```
 
 Activate this environment, so that the Python environment we've created is the
 one we'll use to run the bokeh web app:
 
 ```
-source activate openstates1
+source activate openstate1
 ```
 
 Download the data from:
@@ -51,6 +51,14 @@ In the folder containing main4.py, run
 ```
 bokeh serve .
 ```
+
+Alternatively, a Jupyter notebook has been provided for running this application
+To start a notebook server:
+```
+jupyter notebook
+```
+
+and then select the TexasLegeVotes.ipny file
 
 TODO
 ----
