@@ -9,7 +9,8 @@ Without further adieu, here is an example plot output from tx_lege_votes:
 ![screenshot](/ScreenCapture1.png?raw=true "UI screenshot")
 
 
-Installation:
+Installation
+------------
 The conda package ecosystem is utilized heavily by this project. If you don't
 yet have conda, you can get a barebones installation with Miniconda.
 Instructions are at https://conda.io/miniconda.html
