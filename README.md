@@ -5,6 +5,10 @@ By summarizing graphically the top 10 legislators that have the highest percenta
 "other" votes we can ask legislators on why they did not vote at all on bills.
 Were these strategic abstensions or were they just not bothering to attend the session?  
 
+Without further adieu, here is an example plot output from tx_lege_votes:
+![screenshot](/ScreenCapture1.png?raw=true "UI screenshot")
+
+
 Installation:
 The conda package ecosystem is utilized heavily by this project. If you don't
 yet have conda, you can get a barebones installation with Miniconda.
