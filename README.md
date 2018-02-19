@@ -1,5 +1,9 @@
 # tx_lege_votes
-an analysis of Texas Open State data showing legislators who most vote neither yes or no for bills
+An analysis of Texas Open State data showing legislators who most vote neither yes or no for bills.
+The Open States data shows which legislators vote yes, no or "other" for each bill. 
+By summarizing graphically the top 10 legislators that have the highest percentage of
+"other" votes we can ask legislators on why they did not vote at all on bills.
+Were these strategic abstensions or were they just not bothering to attend the session?  
 
 Installation:
 The conda package ecosystem is utilized heavily by this project. If you don't
