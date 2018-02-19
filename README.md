@@ -50,7 +50,7 @@ Running the app
 Bokeh includes a standalone server. For simplicity and self-containment of this
 repository, that's what we'll demonstrate.
 
-In the folder containing main4.py, run
+In the folder containing main4.py, run 
 
 ```
 bokeh serve .
